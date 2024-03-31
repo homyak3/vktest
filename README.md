@@ -1,6 +1,6 @@
 create DataBase "tester"
 create table
-  CREATE TABLE users2(id int AUTO_INCREMENT PRIMARY KEY, email char(255), password char(255))
+  CREATE TABLE users(id int AUTO_INCREMENT PRIMARY KEY, email char(255), password char(255))
 
 
 /register api
